@@ -1,16 +1,18 @@
 ## Objectives
 
-1. Objective 1
-2. Objective 2
+1. Use `scope` in the `routes.rb`
+2. Create module scoped controller as well
 
-## Instructions
+## Outline
 
-Make the tests pass.
+In the blog domain. Give them the code from the last thing. Write a `StatsController` that returns stats on your posts. So things like number of posts. I think that's all of the easy stats to write. It should just have one action: index. Then they'll code along from there
 
-### Part 1: Do Some Stuff
-
-## Resources
-
-* [Stack Exchange](http://www.stackexchange.com) - [Some Question on Stack Exchange](http://www.stackexchange.com/questions/123)
-
-<a href='https://learn.co/lessons/namespaced-routes-reading' data-visibility='hidden'>View this lesson on Learn.co</a>
+  * Sometimes you can categorize your routes. The most common is something like a bunch of items that only work for "admins"
+  * So we can do it all manually (show them)
+  * That's annoying. So we have the `scope` thing.
+  * Show them scope but not module
+  * What if you have a ton of different admin based controllers? 
+    * spraling files, namespacing
+  * Enter modules.
+  * They know modules and such, just show them Modules in this case
+  * show `scope module`
