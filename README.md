@@ -16,3 +16,5 @@ In the blog domain. Give them the code from the last thing. Write a `StatsContro
   * Enter modules.
   * They know modules and such, just show them Modules in this case
   * show `scope module`
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/namespaced-routes-reading' title='Objectives'>Objectives</a> on Learn.co and start learning to code for free.</p>
