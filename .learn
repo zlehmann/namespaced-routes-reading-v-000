@@ -1,5 +1,9 @@
 tags:
-  - tag1
+  - routes
+  - namespaces
+  - rails
+  - scoped routes
+  - modules
 languages:
-  - language1
+  - ruby
 resources: 0
