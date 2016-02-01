@@ -1,6 +1,6 @@
 class StatsController < ApplicationController
 
-  def show
+  def index
     @post_count = Post.count
     @authors_count = Author.count
     @last_post = Post.last.created_at
