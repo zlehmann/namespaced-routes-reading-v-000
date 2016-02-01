@@ -1,7 +1,19 @@
+# Namespaced Routes
+
 ## Objectives
 
-1. Use `scope` in the `routes.rb`
-2. Create module scoped controller as well
+1. Understand the use of `scope` and `namespace` in `routes.rb`.
+2. Create a module scoped controller.
+
+## Lesson
+
+We're going to explore different ways of routing things in our blog
+application to help us organize and group certain routes, and
+controllers, more logically.
+
+
+### Blog Stats
+
 
 ## Outline
 
