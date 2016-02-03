@@ -163,7 +163,7 @@ use the `namespace` method instead of `scope, module`.
 ```
 
 If we reload `/admin/stats`, everything still works, but we've
-simplified the declaration of of the routes. The `namespace` method
+simplified the declaration of the routes. The `namespace` method
 makes the assumption that the prefix and the module should match, saving
 us some typing.
 
@@ -182,3 +182,5 @@ an `/admin` prefix, and to further organize our controllers using
 directories and modules and `scope module` or `namespace` in our routes.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/namespaced-routes-reading' title='Objectives'>Objectives</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/namespaced-routes-reading'>Namespaced Routes </a> on Learn.co and start learning to code for free.</p>
