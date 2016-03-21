@@ -110,7 +110,7 @@ the controller accordingly, so we need to modify our
 `admin/stats_controller.rb` to look like this:
 
 ```ruby
-# controllers\admin\stats_controller.rb
+# controllers/admin/stats_controller.rb
 
 class Admin::StatsController < ApplicationController
   def index
@@ -121,12 +121,12 @@ end
 
 Now that we have our controller in a module, Rails will expect the
 views to match, so let's create `/app/views/admin/stats/` and move our
-`stats\index.html.erb` into it, so that we have an
-`\app\views\admin\stats\index.html.erb`.
+`stats/index.html.erb` into it, so that we have an
+`/app/views/admin/stats/index.html.erb`.
 
 **Top-tip:** The `views` folder for a controller module, in this case
-`\admin`, still expects a subfolder structure that matches the names of
-the controllers, so in this case, `\admin\stats`.
+`/admin`, still expects a subfolder structure that matches the names of
+the controllers, so in this case, `/admin/stats`.
 
 If we try to reload `/admin/stats` now, we will get an error,
 because we need to tell our routes about our new module.
